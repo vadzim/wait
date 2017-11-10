@@ -9,7 +9,7 @@
   },
   "contributors": [],
   "bin": {
-    "wait": "./bin/wait.js"
+    "wait": "./distr/main.js"
   },
   "author": "Vadzim Zieńka <developer@vadzim.info>",
   "scripts": {
