@@ -8,7 +8,9 @@
     "url": "https://github.com/vadzim/wait/issues"
   },
   "contributors": [],
-  "main": "distr/wait.js",
+  "bin": {
+    "js": "./bin/js"
+  },
   "author": "Vadzim Zieńka <developer@vadzim.info>",
   "scripts": {
     "build": "flow && (rm distr/*; true) && babel source --out-dir distr && cd distr && (for f in $(find | grep -E '.js$'); do if grep @flow ../source/$f >/dev/null; then cp ../source/$f $f.flow; fi; done) && cd ..",
