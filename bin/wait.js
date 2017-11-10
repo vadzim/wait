@@ -1,1 +1,1 @@
-require("../distr/wait.js")
+require("../distr/main.js")
